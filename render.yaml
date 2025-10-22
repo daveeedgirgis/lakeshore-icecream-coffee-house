@@ -2,6 +2,6 @@ services:
   - type: web
     name: lakeshore-icecream-coffee-house
     env: node
-    buildCommand: npm install && npm run build
-    startCommand: npm start
+    buildCommand: npm ci && npm run build
+    startCommand: node server.js
     pullRequestPreviewsEnabled: true
