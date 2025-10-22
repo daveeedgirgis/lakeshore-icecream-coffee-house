@@ -20,8 +20,8 @@ const Gallery = () => {
       category: 'Coffee'
     },
     {
-      src: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      alt: 'Colorful ice cream scoops in waffle cones',
+      src: '/images/lakeshore-ice-cream.png',
+      alt: 'Ice cream at Lakeshore with beautiful lakeside view',
       category: 'Ice Cream'
     },
     {
@@ -30,8 +30,8 @@ const Gallery = () => {
       category: 'Food'
     },
     {
-      src: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      alt: 'Outdoor seating area with lake view',
+      src: '/images/store-exterior-patio.png',
+      alt: 'Lakeshore Coffee House exterior and patio',
       category: 'Exterior'
     },
     {
@@ -50,9 +50,9 @@ const Gallery = () => {
       category: 'Coffee'
     },
     {
-      src: 'https://images.unsplash.com/photo-1576504346174-7da37ba3ea67?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      alt: 'Ice cream sundae with fresh berries',
-      category: 'Ice Cream'
+      src: '/images/ice-cream-window-sticker.png',
+      alt: 'Ice cream window sticker at Lakeshore Coffee House',
+      category: 'Interior'
     },
     {
       src: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',

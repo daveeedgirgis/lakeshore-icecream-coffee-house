@@ -67,7 +67,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')"
+            backgroundImage: "url('https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')"
           }}
         ></div>
         <div className="relative z-10 text-center text-white section-padding py-20">
@@ -183,8 +183,8 @@ const Home = () => {
             <div className="order-1 lg:order-2">
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="Lakeshore Coffee House interior"
+                  src="/images/store-exterior-patio.png"
+                  alt="Lakeshore Coffee House exterior and patio"
                   className="w-full h-96 object-cover rounded-2xl shadow-medium"
                 />
                 <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary-200 rounded-2xl -z-10"></div>
