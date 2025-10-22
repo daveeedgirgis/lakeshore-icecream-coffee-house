@@ -17,5 +17,5 @@ services:
         value: strict-origin-when-cross-origin
     routes:
       - type: rewrite
-        source: /*
+        source: "/*"
         destination: /index.html
