@@ -1,25 +1,4 @@
-import { useState } from 'react'
-
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  })
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    })
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    alert('Thank you for your message! We\'ll get back to you soon.')
-    setFormData({ name: '', email: '', subject: '', message: '' })
-  }
 
   return (
     <div className="min-h-screen bg-cream-50">
@@ -33,7 +12,7 @@ const Contact = () => {
       </div>
 
       <div className="container-max section-padding py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="max-w-4xl mx-auto">
           <div>
             <h2 className="font-display font-bold text-3xl text-coffee-800 mb-8">
               Get in Touch
@@ -111,109 +90,6 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div>
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="font-display font-semibold text-2xl text-coffee-800 mb-6">
-                Send Us a Message
-              </h3>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-coffee-800 mb-2">
-                    Your Name *
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3 border border-coffee-200 rounded-lg focus:ring-2 focus:ring-coffee-500 focus:border-transparent transition-colors"
-                    placeholder="Enter your full name"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-coffee-800 mb-2">
-                    Email Address *
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3 border border-coffee-200 rounded-lg focus:ring-2 focus:ring-coffee-500 focus:border-transparent transition-colors"
-                    placeholder="your.email@example.com"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-coffee-800 mb-2">
-                    Subject
-                  </label>
-                  <select
-                    id="subject"
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 border border-coffee-200 rounded-lg focus:ring-2 focus:ring-coffee-500 focus:border-transparent transition-colors"
-                  >
-                    <option value="">Select a subject</option>
-                    <option value="general">General Inquiry</option>
-                    <option value="feedback">Feedback</option>
-                    <option value="catering">Catering & Events</option>
-                    <option value="employment">Employment</option>
-                    <option value="complaint">Complaint</option>
-                    <option value="suggestion">Suggestion</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-coffee-800 mb-2">
-                    Message *
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                    rows={5}
-                    className="w-full px-4 py-3 border border-coffee-200 rounded-lg focus:ring-2 focus:ring-coffee-500 focus:border-transparent transition-colors resize-y"
-                    placeholder="Tell us what's on your mind..."
-                  ></textarea>
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full btn-primary text-lg py-4"
-                >
-                  Send Message
-                </button>
-              </form>
-            </div>
-
-            <div className="mt-8 bg-coffee-100 p-6 rounded-lg">
-              <h4 className="font-display font-semibold text-lg text-coffee-800 mb-3">
-                Business Inquiries
-              </h4>
-              <p className="text-coffee-700 mb-3">
-                Interested in catering, private events, or partnerships? We'd love to work with you!
-              </p>
-              <a
-                href="mailto:lakeshorecoffeehouse@cogeco.ca"
-                className="inline-flex items-center text-coffee-600 hover:text-coffee-800 font-medium"
-              >
-                lakeshorecoffeehouse@cogeco.ca
-                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
             </div>
           </div>
         </div>
