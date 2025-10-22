@@ -24,7 +24,8 @@
       "WebFetch(domain:maps.google.com)",
       "Bash(cp:*)",
       "Bash(mv:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(rm:*)"
     ],
     "deny": []
   },
