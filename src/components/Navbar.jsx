@@ -17,25 +17,26 @@ const Navbar = () => {
   const isActive = (path) => location.pathname === path
 
   return (
-    <nav className="bg-white shadow-lg sticky top-0 z-50">
+    <nav className="bg-white/95 backdrop-blur-sm shadow-soft sticky top-0 z-50">
       <div className="container-max section-padding">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0">
-            <Link to="/" className="font-display font-bold text-xl text-coffee-800">
-              Lakeshore Ice Cream & Coffee House
+            <Link to="/" className="font-serif font-bold text-2xl text-coffee-800">
+              Lakeshore
+              <span className="text-primary-600 ml-2">Coffee</span>
             </Link>
           </div>
 
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div className="ml-10 flex items-center space-x-8">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
                   to={item.href}
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
+                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                     isActive(item.href)
-                      ? 'bg-coffee-100 text-coffee-800'
-                      : 'text-coffee-600 hover:bg-coffee-50 hover:text-coffee-800'
+                      ? 'bg-primary-100 text-coffee-800 shadow-soft'
+                      : 'text-neutral-700 hover:bg-neutral-100 hover:text-coffee-800'
                   }`}
                 >
                   {item.name}
@@ -47,7 +48,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="bg-coffee-100 inline-flex items-center justify-center p-2 rounded-md text-coffee-600 hover:text-coffee-800 hover:bg-coffee-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-coffee-500"
+              className="bg-neutral-100 inline-flex items-center justify-center p-3 rounded-full text-neutral-700 hover:text-coffee-800 hover:bg-primary-100 focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all duration-300"
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
@@ -90,16 +91,16 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-coffee-50">
+        <div className="md:hidden bg-white/95 backdrop-blur-sm border-t border-neutral-200">
+          <div className="px-4 pt-4 pb-6 space-y-2">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 to={item.href}
-                className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
+                className={`block px-4 py-3 rounded-xl text-base font-medium transition-all duration-300 ${
                   isActive(item.href)
-                    ? 'bg-coffee-200 text-coffee-900'
-                    : 'text-coffee-700 hover:bg-coffee-100 hover:text-coffee-900'
+                    ? 'bg-primary-100 text-coffee-800 shadow-soft'
+                    : 'text-neutral-700 hover:bg-neutral-100 hover:text-coffee-800'
                 }`}
                 onClick={() => setIsOpen(false)}
               >

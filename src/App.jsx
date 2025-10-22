@@ -10,7 +10,7 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <div className="min-h-screen bg-cream-50">
+    <div className="min-h-screen bg-neutral-50">
       <Navbar />
       <main>
         <Routes>

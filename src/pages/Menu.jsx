@@ -17,26 +17,26 @@ const Menu = () => {
   }
 
   return (
-    <div className="min-h-screen bg-cream-50">
-      <div className="bg-coffee-800 text-white py-16">
+    <div className="min-h-screen bg-neutral-50">
+      <div className="bg-gradient-to-r from-coffee-800 to-coffee-900 text-white py-24">
         <div className="container-max section-padding text-center">
-          <h1 className="font-display font-bold text-5xl mb-4">Our Menu</h1>
-          <p className="text-xl text-coffee-200">
-            Crafted with care, served with love
+          <h1 className="font-serif text-6xl font-bold mb-6">Our Menu</h1>
+          <p className="text-xl text-neutral-200 max-w-2xl mx-auto">
+            Crafted with passion, served with love – discover our carefully curated selection of artisanal treats
           </p>
         </div>
       </div>
 
-      <div className="container-max section-padding py-12">
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+      <div className="container-max section-padding py-16">
+        <div className="flex flex-wrap justify-center gap-4 mb-16">
           {categories.map((category) => (
             <button
               key={category}
               onClick={() => setActiveCategory(category)}
-              className={`px-6 py-3 rounded-full font-medium transition-colors duration-200 ${
+              className={`px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-soft hover:shadow-medium ${
                 activeCategory === category
-                  ? 'bg-coffee-600 text-white'
-                  : 'bg-white text-coffee-600 hover:bg-coffee-100'
+                  ? 'bg-coffee-700 text-white transform scale-105'
+                  : 'bg-white text-neutral-700 hover:bg-primary-50 hover:text-coffee-800'
               }`}
             >
               {category}
@@ -44,36 +44,36 @@ const Menu = () => {
           ))}
         </div>
 
-        <div className="max-w-4xl mx-auto">
-          <h2 className="font-display font-bold text-3xl text-coffee-800 mb-8 text-center">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="section-title text-center text-gradient mb-12">
             {activeCategory}
           </h2>
           
-          <div className="grid gap-6">
+          <div className="grid gap-8">
             {menuData[activeCategory].map((item, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+                className="card card-hover p-8 group"
               >
-                <div className="flex justify-between items-start mb-3">
-                  <h3 className="font-display font-semibold text-xl text-coffee-800">
+                <div className="flex justify-between items-start mb-4">
+                  <h3 className="font-serif text-2xl font-semibold text-coffee-800 group-hover:text-primary-600 transition-colors duration-300">
                     {item.name}
                   </h3>
-                  <span className="font-bold text-lg text-coffee-600 ml-4">
+                  <span className="font-bold text-2xl text-primary-600 ml-6 flex-shrink-0">
                     {item.price}
                   </span>
                 </div>
                 
-                <p className="text-coffee-600 mb-3 leading-relaxed">
+                <p className="text-neutral-600 mb-4 leading-relaxed text-lg">
                   {item.description}
                 </p>
                 
                 {item.tags && item.tags.length > 0 && (
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-3">
                     {item.tags.map((tag, tagIndex) => (
                       <span
                         key={tagIndex}
-                        className={`px-3 py-1 rounded-full text-sm font-medium ${getTagColor(tag)}`}
+                        className={`px-4 py-2 rounded-full text-sm font-medium ${getTagColor(tag)}`}
                       >
                         {tag}
                       </span>
@@ -85,22 +85,26 @@ const Menu = () => {
           </div>
         </div>
 
-        <div className="mt-16 bg-coffee-100 p-8 rounded-lg text-center">
-          <h3 className="font-display font-bold text-2xl text-coffee-800 mb-4">
+        <div className="mt-20 bg-gradient-to-br from-primary-50 to-coffee-50 p-10 rounded-2xl text-center shadow-soft">
+          <h3 className="font-serif text-3xl font-semibold text-coffee-800 mb-6">
             Dietary Information
           </h3>
-          <div className="flex flex-wrap justify-center gap-6 text-coffee-700">
-            <div className="flex items-center gap-2">
-              <span className="w-4 h-4 bg-green-100 rounded-full border-2 border-green-500"></span>
-              <span>Vegan Options Available</span>
+          <div className="flex flex-wrap justify-center gap-8 text-neutral-700 mb-6">
+            <div className="flex items-center gap-3">
+              <div className="w-6 h-6 bg-green-100 rounded-full border-3 border-green-500 flex items-center justify-center">
+                <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+              </div>
+              <span className="font-medium">Vegan Options Available</span>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="w-4 h-4 bg-blue-100 rounded-full border-2 border-blue-500"></span>
-              <span>Gluten-Free Options Available</span>
+            <div className="flex items-center gap-3">
+              <div className="w-6 h-6 bg-blue-100 rounded-full border-3 border-blue-500 flex items-center justify-center">
+                <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+              </div>
+              <span className="font-medium">Gluten-Free Options Available</span>
             </div>
           </div>
-          <p className="mt-4 text-coffee-600">
-            Please inform our staff of any allergies or dietary restrictions.
+          <p className="text-neutral-600 text-lg">
+            Please inform our staff of any allergies or dietary restrictions. We're happy to accommodate your needs!
           </p>
         </div>
       </div>

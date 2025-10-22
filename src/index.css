@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -11,16 +11,28 @@
   
   body {
     font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #583f2f;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    line-height: 1.2;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-coffee-600 hover:bg-coffee-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200;
+    @apply bg-coffee-700 hover:bg-coffee-800 text-white font-medium py-4 px-8 rounded-full transition-all duration-300 shadow-soft hover:shadow-medium transform hover:-translate-y-0.5;
   }
   
   .btn-secondary {
-    @apply bg-cream-100 hover:bg-cream-200 text-coffee-800 font-medium py-3 px-6 rounded-lg transition-colors duration-200;
+    @apply bg-white hover:bg-primary-50 text-coffee-700 font-medium py-4 px-8 rounded-full border-2 border-coffee-200 hover:border-primary-300 transition-all duration-300 shadow-soft hover:shadow-medium;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-coffee-700 text-coffee-700 hover:bg-coffee-700 hover:text-white font-medium py-4 px-8 rounded-full transition-all duration-300;
   }
   
   .section-padding {
@@ -29,5 +41,56 @@
   
   .container-max {
     @apply max-w-7xl mx-auto;
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl shadow-soft hover:shadow-medium transition-all duration-300 overflow-hidden;
+  }
+  
+  .card-hover {
+    @apply transform hover:-translate-y-1 transition-all duration-300;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-coffee-700 to-primary-600 bg-clip-text text-transparent;
+  }
+  
+  .section-title {
+    @apply font-serif text-4xl lg:text-5xl font-semibold text-coffee-800 mb-4;
+  }
+  
+  .section-subtitle {
+    @apply text-lg text-neutral-600 max-w-2xl mx-auto leading-relaxed;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
   }
 }

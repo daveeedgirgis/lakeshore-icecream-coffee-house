@@ -7,8 +7,28 @@
       "Bash(npm install)",
       "Bash(npm run build:*)",
       "Bash(pkill:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(env)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo create:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(echo $SHELL)",
+      "Bash(export RENDER_API_KEY=\"rnd_QXE5e7n6FucVUeI7E5eQeDEz5KjC\")",
+      "Bash(npm install:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:render.com)",
+      "WebFetch(domain:themewagon.github.io)"
     ],
     "deny": []
+  },
+  "mcpServers": {
+    "render": {
+      "url": "https://mcp.render.com/mcp",
+      "headers": {
+        "Authorization": "Bearer rnd_QXE5e7n6FucVUeI7E5eQeDEz5KjC"
+      }
+    }
   }
 }
