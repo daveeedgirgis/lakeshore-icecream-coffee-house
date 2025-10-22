@@ -1,201 +1,329 @@
 export const menuData = {
-  "Coffee & Beverages": [
+  "Espresso & Coffee": [
     {
-      name: "Organic Fair-Trade Espresso",
-      description: "Rich, organic single-origin espresso with notes of chocolate and caramel",
-      price: "$3.25",
+      name: "Espresso",
+      description: "Rich, bold espresso shot made from organic fair-trade beans",
+      price: "$2.99",
       tags: ["Vegan"]
     },
     {
-      name: "Lakeside Latte",
-      description: "Smooth espresso with steamed milk and a hint of vanilla",
-      price: "$4.75",
+      name: "Americano", 
+      description: "Espresso with hot water for a smooth, strong coffee",
+      price: "$3.55",
+      tags: ["Vegan"]
+    },
+    {
+      name: "Macchiato",
+      description: "Espresso 'marked' with a dollop of foamed milk",
+      price: "$3.65",
+      tags: []
+    },
+    {
+      name: "Latte",
+      description: "Espresso with steamed milk and a light layer of foam",
+      price: "$4.50",
       tags: []
     },
     {
       name: "Cappuccino",
-      description: "Classic cappuccino with perfectly frothed milk",
+      description: "Equal parts espresso, steamed milk, and milk foam",
       price: "$4.50",
       tags: []
     },
     {
-      name: "Cold Brew Coffee",
-      description: "Smooth, less acidic cold-brewed organic coffee served over ice",
+      name: "Cortado",
+      description: "Spanish-style coffee with equal parts espresso and warm milk",
       price: "$4.25",
-      tags: ["Vegan"]
-    },
-    {
-      name: "Iced Tea",
-      description: "Refreshing iced tea, perfect for lakeside sipping",
-      price: "$3.75",
-      tags: ["Vegan"]
-    },
-    {
-      name: "Fresh Lemonade",
-      description: "House-made lemonade with fresh lemons 🍋",
-      price: "$3.95",
-      tags: ["Vegan"]
-    },
-    {
-      name: "Hot Tea Selection",
-      description: "Variety of premium teas including herbal options",
-      price: "$3.50",
-      tags: ["Vegan"]
-    },
-    {
-      name: "Americano",
-      description: "Bold espresso with hot water for a strong, clean taste",
-      price: "$3.75",
-      tags: ["Vegan"]
-    }
-  ],
-  "Ice Cream & Desserts": [
-    {
-      name: "Premium Vanilla",
-      description: "Rich vanilla ice cream made with real Madagascar vanilla beans",
-      price: "$4.50",
       tags: []
     },
     {
-      name: "Chocolate Decadence",
-      description: "Indulgent dark chocolate ice cream with chocolate chips",
+      name: "Flat White",
+      description: "Double shot espresso with microfoam steamed milk",
       price: "$4.75",
       tags: []
     },
     {
-      name: "Strawberry Delight",
-      description: "Fresh strawberry ice cream made with local berries",
-      price: "$4.95",
+      name: "Iced Shaken Espresso",
+      description: "Espresso shaken with ice for a refreshing coffee experience",
+      price: "$5.50",
+      tags: ["Vegan"]
+    },
+    {
+      name: "Caffè Mocha",
+      description: "Espresso with chocolate syrup and steamed milk",
+      price: "$5.75",
       tags: []
+    },
+    {
+      name: "Espresso Con Pana",
+      description: "Espresso topped with a dollop of whipped cream",
+      price: "$3.99",
+      tags: []
+    }
+  ],
+  "Our Favourites": [
+    {
+      name: "Iced Caramel Macchiato",
+      description: "Iced espresso with caramel syrup and milk",
+      price: "$5.50",
+      tags: []
+    },
+    {
+      name: "Honey Lavender Latte",
+      description: "Latte with honey and lavender flavoring",
+      price: "$5.75",
+      tags: []
+    },
+    {
+      name: "Salted Caramel Latte",
+      description: "Latte with salted caramel syrup",
+      price: "$5.20",
+      tags: []
+    },
+    {
+      name: "Vanilla Sweet Cold Brew",
+      description: "Cold brew coffee with vanilla sweetener",
+      price: "$4.75",
+      tags: ["Vegan"]
+    },
+    {
+      name: "Irish Cream Americano",
+      description: "Americano with Irish cream flavoring",
+      price: "$4.90",
+      tags: []
+    },
+    {
+      name: "Mint Mocha",
+      description: "Mocha with refreshing mint flavor",
+      price: "$5.80",
+      tags: []
+    },
+    {
+      name: "Cinnamon Latte",
+      description: "Latte with warm cinnamon spice",
+      price: "$5.20",
+      tags: []
+    }
+  ],
+  "Sundaes": [
+    {
+      name: "Hot Caramel Fudge",
+      description: "Vanilla ice cream topped with hot caramel and fudge sauce",
+      price: "$7.95",
+      tags: []
+    },
+    {
+      name: "Cookie Crumble",
+      description: "Ice cream with crushed cookies and whipped cream",
+      price: "$7.95",
+      tags: []
+    },
+    {
+      name: "Salted Caramel",
+      description: "Vanilla ice cream with salted caramel sauce and sea salt",
+      price: "$7.95",
+      tags: []
+    },
+    {
+      name: "Banana Split",
+      description: "Classic banana split with three scoops and all the toppings",
+      price: "$9.95",
+      tags: []
+    },
+    {
+      name: "Oreo Double Chocolate",
+      description: "Chocolate ice cream with Oreo cookies and chocolate sauce",
+      price: "$8.95",
+      tags: []
+    },
+    {
+      name: "Boat For Two",
+      description: "Large sundae perfect for sharing with multiple scoops and toppings",
+      price: "$12.95",
+      tags: []
+    }
+  ],
+  "Iced Drinks & Cold Beverages": [
+    {
+      name: "Iced Coffee",
+      description: "Cold brewed coffee served over ice",
+      price: "$3.50",
+      tags: ["Vegan"]
+    },
+    {
+      name: "Iced Lattes",
+      description: "Cold espresso drinks with milk served over ice",
+      price: "$4.75",
+      tags: []
+    },
+    {
+      name: "Iced Teas",
+      description: "Refreshing iced tea in various flavors",
+      price: "$3.50",
+      tags: ["Vegan"]
     },
     {
       name: "Milkshakes",
       description: "Thick, creamy milkshakes in various flavors",
-      price: "$5.95",
+      price: "$7.50",
       tags: []
     },
     {
-      name: "Ice Cream Sundaes",
-      description: "Classic sundaes with your choice of toppings and sauces",
-      price: "$6.95",
-      tags: []
-    },
-    {
-      name: "Seasonal Sorbet",
-      description: "Refreshing dairy-free sorbet with seasonal fruit flavors",
-      price: "$4.25",
+      name: "Peach Black Tea",
+      description: "Iced black tea with peach flavoring",
+      price: "$3.50",
       tags: ["Vegan"]
     },
     {
-      name: "Banana Split",
-      description: "Classic banana split with three scoops and all the fixings",
+      name: "Passion Fruit Tea",
+      description: "Iced tea with tropical passion fruit flavor",
+      price: "$3.50",
+      tags: ["Vegan"]
+    }
+  ],
+  "Signature Lemonades": [
+    {
+      name: "Passion Fruit Lemonade",
+      description: "House-made lemonade with passion fruit",
+      price: "$4.50",
+      tags: ["Vegan"]
+    },
+    {
+      name: "Peach Lemonade",
+      description: "Fresh lemonade with peach flavoring",
+      price: "$4.50",
+      tags: ["Vegan"]
+    },
+    {
+      name: "Strawberry Lemonade",
+      description: "Lemonade with fresh strawberry flavor",
+      price: "$4.50",
+      tags: ["Vegan"]
+    },
+    {
+      name: "Raspberry Lemonade",
+      description: "Tart raspberry mixed with fresh lemonade",
+      price: "$4.50",
+      tags: ["Vegan"]
+    },
+    {
+      name: "Green Apple Lemonade",
+      description: "Crisp green apple flavored lemonade",
+      price: "$4.50",
+      tags: ["Vegan"]
+    }
+  ],
+  "Tea & Hot Beverages": [
+    {
+      name: "Tea",
+      description: "Selection of premium teas",
+      price: "$3.25",
+      tags: ["Vegan"]
+    },
+    {
+      name: "Organic Herbal Tea",
+      description: "Organic herbal tea selection",
+      price: "$3.50",
+      tags: ["Vegan"]
+    },
+    {
+      name: "Affogato",
+      description: "Vanilla ice cream 'drowned' in hot espresso",
+      price: "$6.00",
+      tags: []
+    },
+    {
+      name: "London Fog",
+      description: "Earl Grey tea with steamed milk and vanilla",
+      price: "$4.75",
+      tags: []
+    },
+    {
+      name: "Matcha Latte",
+      description: "Japanese green tea powder with steamed milk",
+      price: "$4.75",
+      tags: []
+    },
+    {
+      name: "Hot Chocolate",
+      description: "Rich hot chocolate with whipped cream",
+      price: "$4.75",
+      tags: []
+    },
+    {
+      name: "Chai Latte",
+      description: "Spiced tea with steamed milk",
+      price: "$4.75",
+      tags: []
+    }
+  ],
+  "Sandwiches": [
+    {
+      name: "Ham & Cheese",
+      description: "Classic ham and cheese sandwich",
+      price: "$9.95",
+      tags: []
+    },
+    {
+      name: "Grilled Cheese",
+      description: "Melted cheese grilled to perfection",
+      price: "$9.95",
+      tags: ["Vegetarian"]
+    },
+    {
+      name: "Bacon & Cheese",
+      description: "Crispy bacon with melted cheese",
+      price: "$9.95",
+      tags: []
+    },
+    {
+      name: "Turkey & Cheese",
+      description: "Sliced turkey with cheese",
+      price: "$9.95",
+      tags: []
+    },
+    {
+      name: "Avocado & Cheese",
+      description: "Fresh avocado with cheese",
+      price: "$9.95",
+      tags: ["Vegetarian"]
+    },
+    {
+      name: "Classic Italian",
+      description: "Italian-style sandwich with premium ingredients",
+      price: "$9.95",
+      tags: []
+    }
+  ],
+  "Breakfast": [
+    {
+      name: "Bacon & Eggs & Cheese",
+      description: "Breakfast sandwich with bacon, eggs, and cheese",
       price: "$8.95",
       tags: []
     },
     {
-      name: "Vegan Ice Cream",
-      description: "Delicious plant-based ice cream options",
-      price: "$4.95",
-      tags: ["Vegan"]
-    }
-  ],
-  "Sandwiches & Paninis": [
-    {
-      name: "Lakeside Club",
-      description: "Turkey, bacon, lettuce, tomato, and mayo on fresh bread",
-      price: "$11.95",
-      tags: []
-    },
-    {
-      name: "Grilled Veggie Panini",
-      description: "Seasonal vegetables grilled to perfection with cheese",
-      price: "$10.50",
-      tags: ["Vegetarian"]
-    },
-    {
-      name: "Classic BLT",
-      description: "Crispy bacon, fresh lettuce, and tomato on toasted bread",
-      price: "$9.95",
-      tags: []
-    },
-    {
-      name: "Caprese Panini",
-      description: "Fresh mozzarella, tomato, basil, and balsamic on artisan bread",
-      price: "$9.95",
-      tags: ["Vegetarian"]
-    },
-    {
-      name: "Tuna Melt",
-      description: "House-made tuna salad with melted cheese on grilled bread",
-      price: "$10.75",
-      tags: []
-    },
-    {
-      name: "Vegetarian Wrap",
-      description: "Fresh vegetables with hummus in a whole wheat tortilla",
-      price: "$8.75",
-      tags: ["Vegetarian", "Vegan"]
-    },
-    {
-      name: "Grilled Chicken Sandwich",
-      description: "Seasoned grilled chicken with lettuce and tomato",
-      price: "$11.50",
-      tags: []
-    },
-    {
-      name: "Ham & Swiss Panini",
-      description: "Sliced ham and Swiss cheese grilled on artisan bread",
-      price: "$10.25",
-      tags: []
-    }
-  ],
-  "Soups, Salads & Light Meals": [
-    {
-      name: "Daily Soup",
-      description: "Chef's choice of fresh, seasonal soup made daily",
-      price: "$6.95",
-      tags: []
-    },
-    {
-      name: "Garden Salad",
-      description: "Mixed greens with fresh vegetables and choice of dressing",
+      name: "Ham & Eggs & Cheese",
+      description: "Breakfast sandwich with ham, eggs, and cheese",
       price: "$8.95",
-      tags: ["Vegetarian", "Vegan"]
+      tags: []
     },
     {
-      name: "Caesar Salad",
-      description: "Crisp romaine with parmesan, croutons, and caesar dressing",
-      price: "$9.95",
+      name: "Avocado & Eggs",
+      description: "Healthy breakfast with avocado and eggs",
+      price: "$8.95",
       tags: ["Vegetarian"]
     },
     {
-      name: "Quiche of the Day",
-      description: "Fresh-baked quiche with seasonal ingredients",
-      price: "$8.50",
+      name: "Eggs & Cheese",
+      description: "Simple breakfast sandwich with eggs and cheese",
+      price: "$8.95",
       tags: ["Vegetarian"]
     },
     {
-      name: "Belgian Waffles",
-      description: "Light, fluffy waffles served with butter and syrup",
-      price: "$7.95",
-      tags: ["Vegetarian"]
-    },
-    {
-      name: "Soup & Salad Combo",
-      description: "Cup of daily soup with a garden salad",
-      price: "$11.95",
-      tags: ["Vegetarian"]
-    },
-    {
-      name: "Avocado Toast",
-      description: "Smashed avocado on artisan bread with seasonings",
-      price: "$8.25",
-      tags: ["Vegetarian", "Vegan"]
-    },
-    {
-      name: "Fruit Bowl",
-      description: "Fresh seasonal fruit served with yogurt",
-      price: "$6.95",
+      name: "Bagels",
+      description: "Fresh bagels served with butter",
+      price: "$2.50",
       tags: ["Vegetarian"]
     }
   ]

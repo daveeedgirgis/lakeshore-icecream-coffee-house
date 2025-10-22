@@ -19,7 +19,9 @@
       "Bash(npm install:*)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:render.com)",
-      "WebFetch(domain:themewagon.github.io)"
+      "WebFetch(domain:themewagon.github.io)",
+      "WebFetch(domain:www.google.com)",
+      "WebFetch(domain:maps.google.com)"
     ],
     "deny": []
   },
