@@ -36,8 +36,8 @@ const About = () => {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-              alt="Interior view of Lakeshore Coffee House with customers enjoying their time"
+              src="/images/store-exterior-patio.png"
+              alt="Lakeshore Coffee House exterior and patio with beautiful lakeside location"
               className="w-full h-96 object-cover rounded-lg shadow-lg"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-lg"></div>
@@ -93,8 +93,8 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative order-2 lg:order-1">
             <img
-              src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-              alt="Beautiful lakeside view from Lakeshore Coffee House"
+              src="/images/lakeshore-ice-cream.png"
+              alt="Ice cream enjoyed at Lakeshore with beautiful lakeside view"
               className="w-full h-96 object-cover rounded-lg shadow-lg"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-lg"></div>
