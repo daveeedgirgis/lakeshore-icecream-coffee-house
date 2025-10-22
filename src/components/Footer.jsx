@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-coffee-700 mt-8 pt-8 text-center text-coffee-300">
-          <p>&copy; 2024 Lakeshore Ice Cream & Coffee House. All rights reserved.</p>
+          <p>&copy; 2024 Lakeshore Ice Cream & Coffee House. All rights reserved. | Website created by <a href="https://www.linkedin.com/in/davidgirgis2020/" target="_blank" rel="noopener noreferrer" className="text-primary-300 hover:text-primary-200 transition-colors duration-200">David Girgis</a></p>
         </div>
       </div>
     </footer>
