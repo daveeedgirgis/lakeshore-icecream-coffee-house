@@ -53,7 +53,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-display font-semibold text-lg text-coffee-800 mb-1">Visit Us</h3>
                   <p className="text-coffee-700">2007 Lakeshore Rd</p>
-                  <p className="text-coffee-700">Burlington, ON L7R 1A3</p>
+                  <p className="text-coffee-700">Burlington, ON L7R 1A1</p>
                 </div>
               </div>
 
@@ -66,11 +66,11 @@ const Contact = () => {
                 <div>
                   <h3 className="font-display font-semibold text-lg text-coffee-800 mb-1">Call Us</h3>
                   <p className="text-coffee-700">
-                    <a href="tel:+19056392773" className="hover:text-coffee-600 transition-colors">
-                      (905) 639-2773
+                    <a href="tel:+19056311622" className="hover:text-coffee-600 transition-colors">
+                      (905) 631-1622
                     </a>
                   </p>
-                  <p className="text-sm text-coffee-600">Monday - Sunday: 7:00 AM - 8:00 PM</p>
+                  <p className="text-sm text-coffee-600">Sunday - Saturday: 9:00 AM - 9:00 PM</p>
                 </div>
               </div>
 
@@ -83,8 +83,8 @@ const Contact = () => {
                 <div>
                   <h3 className="font-display font-semibold text-lg text-coffee-800 mb-1">Email Us</h3>
                   <p className="text-coffee-700">
-                    <a href="mailto:hello@lakeshoreicecream.ca" className="hover:text-coffee-600 transition-colors">
-                      hello@lakeshoreicecream.ca
+                    <a href="mailto:lakeshorecoffeehouse@cogeco.ca" className="hover:text-coffee-600 transition-colors">
+                      lakeshorecoffeehouse@cogeco.ca
                     </a>
                   </p>
                   <p className="text-sm text-coffee-600">We'll respond within 24 hours</p>
@@ -101,21 +101,12 @@ const Contact = () => {
                   <h3 className="font-display font-semibold text-lg text-coffee-800 mb-1">Follow Us</h3>
                   <div className="flex space-x-3">
                     <a
-                      href="https://instagram.com/lakeshoreicecream"
+                      href="https://www.instagram.com/lakeshorecoffeehouse/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-coffee-600 hover:text-coffee-800 transition-colors"
                     >
-                      Instagram
-                    </a>
-                    <span className="text-coffee-400">•</span>
-                    <a
-                      href="https://facebook.com/lakeshoreicecream"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-coffee-600 hover:text-coffee-800 transition-colors"
-                    >
-                      Facebook
+                      @lakeshorecoffeehouse
                     </a>
                   </div>
                 </div>
@@ -215,10 +206,10 @@ const Contact = () => {
                 Interested in catering, private events, or partnerships? We'd love to work with you!
               </p>
               <a
-                href="mailto:business@lakeshoreicecream.ca"
+                href="mailto:lakeshorecoffeehouse@cogeco.ca"
                 className="inline-flex items-center text-coffee-600 hover:text-coffee-800 font-medium"
               >
-                business@lakeshoreicecream.ca
+                lakeshorecoffeehouse@cogeco.ca
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>

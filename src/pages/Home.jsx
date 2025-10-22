@@ -77,7 +77,7 @@ const Home = () => {
               <span className="block text-primary-400">Coffee House</span>
             </h1>
             <p className="text-xl md:text-2xl mb-6 text-neutral-200 max-w-3xl mx-auto font-light">
-              Organic Fair-Trade Coffee • Premium Ice Cream & Desserts • Sandwiches & Snacks
+              Coffee • Ice Cream • Sandwiches • Milkshakes • Sundaes • Iced Teas • Lemonades 🍋
             </p>
             <p className="text-lg mb-12 text-neutral-300 max-w-2xl mx-auto">
               Your perfect lakeside retreat in the heart of Burlington, Ontario
@@ -158,8 +158,9 @@ const Home = () => {
                 Crafted with <span className="text-primary-600">Passion</span>
               </h2>
               <p className="text-lg text-neutral-600 mb-8 leading-relaxed">
-                Since 2019, we've been Burlington's premier destination for exceptional coffee and artisanal treats. 
-                Our commitment to quality and community shines through in every cup we serve and every smile we share.
+                Located directly across from beautiful Lake Ontario, we're an independent, locally-owned café 
+                that serves organic fair-trade coffee alongside an extensive menu featuring everything from ice cream 
+                and milkshakes to sandwiches, soups, salads, and quiches.
               </p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-center">

@@ -18,20 +18,19 @@ const About = () => {
             </h2>
             <div className="prose prose-lg text-coffee-700 space-y-4">
               <p>
-                Nestled along the beautiful shores of Lake Ontario in Burlington, Lakeshore Ice Cream & Coffee House 
-                has been serving our community since 2018. What started as a dream to create a warm, welcoming space 
-                where neighbors could gather over exceptional coffee has grown into Burlington's favorite lakeside destination.
+                Located directly across from the stunning Lake Ontario waterfront in Burlington, Lakeshore Ice Cream & Coffee House 
+                is an independent, locally-owned café that has become a beloved gathering place for the community. 
+                Our unique location offers unparalleled lakeside views and easy walkability from the waterfront trail.
               </p>
               <p>
-                We believe in the power of community, quality, and sustainability. That's why we source only 
-                organic, fair-trade coffee beans that support farmers and protect the environment. Our ice cream 
-                is made fresh daily with premium ingredients, and our food is prepared with the same care and 
-                attention to detail that you'd find in your own kitchen.
+                We pride ourselves on serving organic, fair-trade coffee alongside our extensive menu of ice cream, 
+                desserts, sandwiches, paninis, soups, salads, quiches, and Belgian waffles. Our commitment to quality 
+                over volume means every item is prepared with care, emphasizing fresh, local ingredients whenever possible.
               </p>
               <p>
-                Whether you're starting your morning with a perfectly crafted latte, enjoying a leisurely afternoon 
-                with friends over artisanal ice cream, or finding a quiet corner to work with our free WiFi, 
-                Lakeshore is your home away from home.
+                With multiple levels of comfortable seating, including a cozy fireplace area and window views overlooking 
+                the lake, Lakeshore offers the perfect atmosphere whether you're here for a leisurely coffee, family dessert time, 
+                remote work session with free WiFi, or simply enjoying Burlington's beautiful waterfront neighborhood.
               </p>
             </div>
           </div>
@@ -56,10 +55,10 @@ const About = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h4 className="font-display font-semibold text-xl text-coffee-800 mb-2">Sustainability</h4>
+              <h4 className="font-display font-semibold text-xl text-coffee-800 mb-2">Quality & Ethics</h4>
               <p className="text-coffee-600">
-                We're committed to environmental responsibility through fair-trade sourcing, 
-                minimal waste practices, and supporting local suppliers.
+                We serve only organic, fair-trade coffee and maintain high standards for all our 
+                offerings, from ice cream to fresh sandwiches and daily soups.
               </p>
             </div>
             
@@ -69,10 +68,10 @@ const About = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h4 className="font-display font-semibold text-xl text-coffee-800 mb-2">Community</h4>
+              <h4 className="font-display font-semibold text-xl text-coffee-800 mb-2">Family Friendly</h4>
               <p className="text-coffee-600">
-                We're more than a café – we're a gathering place where friendships form, 
-                ideas flow, and the Burlington community comes together.
+                Perfect for families with kids who love ice cream, remote workers needing WiFi, 
+                and tourists exploring Burlington's beautiful lakeside attractions.
               </p>
             </div>
             
@@ -82,10 +81,10 @@ const About = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                 </svg>
               </div>
-              <h4 className="font-display font-semibold text-xl text-coffee-800 mb-2">Quality</h4>
+              <h4 className="font-display font-semibold text-xl text-coffee-800 mb-2">Lakeside Location</h4>
               <p className="text-coffee-600">
-                From our carefully selected coffee beans to our handcrafted ice cream, 
-                we never compromise on quality and taste.
+                Our prime waterfront location offers outdoor seating with stunning lake views 
+                and convenient access to Burlington's waterfront trail and attractions.
               </p>
             </div>
           </div>

@@ -1,7 +1,7 @@
 export const menuData = {
   "Coffee & Beverages": [
     {
-      name: "Fair Trade Espresso",
+      name: "Organic Fair-Trade Espresso",
       description: "Rich, organic single-origin espresso with notes of chocolate and caramel",
       price: "$3.25",
       tags: ["Vegan"]
@@ -13,190 +13,190 @@ export const menuData = {
       tags: []
     },
     {
-      name: "Oat Milk Cappuccino",
-      description: "Creamy cappuccino made with locally-sourced oat milk",
-      price: "$4.95",
-      tags: ["Vegan"]
+      name: "Cappuccino",
+      description: "Classic cappuccino with perfectly frothed milk",
+      price: "$4.50",
+      tags: []
     },
     {
       name: "Cold Brew Coffee",
-      description: "Smooth, less acidic cold-brewed coffee served over ice",
+      description: "Smooth, less acidic cold-brewed organic coffee served over ice",
       price: "$4.25",
       tags: ["Vegan"]
     },
     {
-      name: "Chai Tea Latte",
-      description: "Aromatic blend of spices with steamed milk",
-      price: "$4.50",
-      tags: []
-    },
-    {
-      name: "Herbal Tea Selection",
-      description: "Chamomile, peppermint, or ginger lemon tea",
+      name: "Iced Tea",
+      description: "Refreshing iced tea, perfect for lakeside sipping",
       price: "$3.75",
-      tags: ["Vegan", "Gluten-Free"]
+      tags: ["Vegan"]
     },
     {
       name: "Fresh Lemonade",
-      description: "House-made lemonade with fresh lemons and mint",
+      description: "House-made lemonade with fresh lemons 🍋",
       price: "$3.95",
-      tags: ["Vegan", "Gluten-Free"]
+      tags: ["Vegan"]
     },
     {
-      name: "Iced Matcha Latte",
-      description: "Premium ceremonial grade matcha with choice of milk",
-      price: "$5.25",
-      tags: []
+      name: "Hot Tea Selection",
+      description: "Variety of premium teas including herbal options",
+      price: "$3.50",
+      tags: ["Vegan"]
+    },
+    {
+      name: "Americano",
+      description: "Bold espresso with hot water for a strong, clean taste",
+      price: "$3.75",
+      tags: ["Vegan"]
     }
   ],
-  "Ice Cream & Sundaes": [
+  "Ice Cream & Desserts": [
     {
-      name: "Vanilla Bean Supreme",
+      name: "Premium Vanilla",
       description: "Rich vanilla ice cream made with real Madagascar vanilla beans",
       price: "$4.50",
-      tags: ["Gluten-Free"]
+      tags: []
     },
     {
       name: "Chocolate Decadence",
       description: "Indulgent dark chocolate ice cream with chocolate chips",
       price: "$4.75",
-      tags: ["Gluten-Free"]
+      tags: []
     },
     {
-      name: "Strawberry Basil",
-      description: "Fresh strawberry ice cream with a hint of garden basil",
+      name: "Strawberry Delight",
+      description: "Fresh strawberry ice cream made with local berries",
       price: "$4.95",
-      tags: ["Gluten-Free"]
+      tags: []
     },
     {
-      name: "Coconut Lime Sorbet",
-      description: "Refreshing dairy-free sorbet with tropical flavors",
+      name: "Milkshakes",
+      description: "Thick, creamy milkshakes in various flavors",
+      price: "$5.95",
+      tags: []
+    },
+    {
+      name: "Ice Cream Sundaes",
+      description: "Classic sundaes with your choice of toppings and sauces",
+      price: "$6.95",
+      tags: []
+    },
+    {
+      name: "Seasonal Sorbet",
+      description: "Refreshing dairy-free sorbet with seasonal fruit flavors",
       price: "$4.25",
-      tags: ["Vegan", "Gluten-Free"]
+      tags: ["Vegan"]
     },
     {
-      name: "Salted Caramel Crunch",
-      description: "Creamy caramel ice cream with sea salt and toffee bits",
-      price: "$5.25",
-      tags: ["Gluten-Free"]
-    },
-    {
-      name: "Lakeside Sundae",
-      description: "Three scoops, hot fudge, whipped cream, cherry, and nuts",
+      name: "Banana Split",
+      description: "Classic banana split with three scoops and all the fixings",
       price: "$8.95",
-      tags: ["Gluten-Free"]
+      tags: []
     },
     {
-      name: "Vegan Chocolate Chip",
-      description: "Rich oat milk-based ice cream with dark chocolate chips",
+      name: "Vegan Ice Cream",
+      description: "Delicious plant-based ice cream options",
       price: "$4.95",
-      tags: ["Vegan", "Gluten-Free"]
-    },
-    {
-      name: "Maple Walnut",
-      description: "Canadian maple ice cream with roasted walnuts",
-      price: "$5.50",
-      tags: ["Gluten-Free"]
+      tags: ["Vegan"]
     }
   ],
   "Sandwiches & Paninis": [
     {
       name: "Lakeside Club",
-      description: "Turkey, bacon, lettuce, tomato, and mayo on sourdough",
+      description: "Turkey, bacon, lettuce, tomato, and mayo on fresh bread",
       price: "$11.95",
       tags: []
     },
     {
       name: "Grilled Veggie Panini",
-      description: "Zucchini, peppers, spinach, and goat cheese on focaccia",
+      description: "Seasonal vegetables grilled to perfection with cheese",
       price: "$10.50",
-      tags: []
+      tags: ["Vegetarian"]
     },
     {
-      name: "Smoked Salmon Bagel",
-      description: "Everything bagel with cream cheese, capers, and red onion",
-      price: "$12.75",
-      tags: []
-    },
-    {
-      name: "Caprese Panini",
-      description: "Fresh mozzarella, tomato, basil, and balsamic on ciabatta",
+      name: "Classic BLT",
+      description: "Crispy bacon, fresh lettuce, and tomato on toasted bread",
       price: "$9.95",
       tags: []
     },
     {
-      name: "BBQ Pulled Pork",
-      description: "Slow-cooked pulled pork with coleslaw on brioche bun",
-      price: "$12.25",
+      name: "Caprese Panini",
+      description: "Fresh mozzarella, tomato, basil, and balsamic on artisan bread",
+      price: "$9.95",
+      tags: ["Vegetarian"]
+    },
+    {
+      name: "Tuna Melt",
+      description: "House-made tuna salad with melted cheese on grilled bread",
+      price: "$10.75",
       tags: []
     },
     {
-      name: "Hummus & Veggie Wrap",
-      description: "House-made hummus with fresh vegetables in spinach tortilla",
+      name: "Vegetarian Wrap",
+      description: "Fresh vegetables with hummus in a whole wheat tortilla",
       price: "$8.75",
-      tags: ["Vegan"]
+      tags: ["Vegetarian", "Vegan"]
     },
     {
-      name: "Grilled Chicken Caesar",
-      description: "Grilled chicken, romaine, parmesan, and caesar dressing",
+      name: "Grilled Chicken Sandwich",
+      description: "Seasoned grilled chicken with lettuce and tomato",
       price: "$11.50",
       tags: []
     },
     {
-      name: "Gluten-Free Avocado Toast",
-      description: "Smashed avocado on gluten-free bread with hemp seeds",
-      price: "$9.25",
-      tags: ["Gluten-Free", "Vegan"]
+      name: "Ham & Swiss Panini",
+      description: "Sliced ham and Swiss cheese grilled on artisan bread",
+      price: "$10.25",
+      tags: []
     }
   ],
-  "Cakes & Desserts": [
+  "Soups, Salads & Light Meals": [
     {
-      name: "New York Cheesecake",
-      description: "Classic creamy cheesecake with graham cracker crust",
+      name: "Daily Soup",
+      description: "Chef's choice of fresh, seasonal soup made daily",
       price: "$6.95",
       tags: []
     },
     {
-      name: "Chocolate Lava Cake",
-      description: "Warm chocolate cake with molten center, served with vanilla ice cream",
-      price: "$7.50",
-      tags: []
+      name: "Garden Salad",
+      description: "Mixed greens with fresh vegetables and choice of dressing",
+      price: "$8.95",
+      tags: ["Vegetarian", "Vegan"]
     },
     {
-      name: "Lemon Tart",
-      description: "Tangy lemon curd in buttery pastry shell with meringue",
-      price: "$5.95",
-      tags: []
+      name: "Caesar Salad",
+      description: "Crisp romaine with parmesan, croutons, and caesar dressing",
+      price: "$9.95",
+      tags: ["Vegetarian"]
     },
     {
-      name: "Vegan Carrot Cake",
-      description: "Spiced carrot cake with cashew cream frosting",
-      price: "$6.25",
-      tags: ["Vegan"]
+      name: "Quiche of the Day",
+      description: "Fresh-baked quiche with seasonal ingredients",
+      price: "$8.50",
+      tags: ["Vegetarian"]
     },
     {
-      name: "Tiramisu",
-      description: "Classic Italian dessert with coffee-soaked ladyfingers",
-      price: "$6.75",
-      tags: []
+      name: "Belgian Waffles",
+      description: "Light, fluffy waffles served with butter and syrup",
+      price: "$7.95",
+      tags: ["Vegetarian"]
     },
     {
-      name: "Fresh Berry Tart",
-      description: "Seasonal berries on vanilla pastry cream",
-      price: "$6.50",
-      tags: []
+      name: "Soup & Salad Combo",
+      description: "Cup of daily soup with a garden salad",
+      price: "$11.95",
+      tags: ["Vegetarian"]
     },
     {
-      name: "Gluten-Free Brownies",
-      description: "Fudgy chocolate brownies made with almond flour",
-      price: "$4.95",
-      tags: ["Gluten-Free"]
+      name: "Avocado Toast",
+      description: "Smashed avocado on artisan bread with seasonings",
+      price: "$8.25",
+      tags: ["Vegetarian", "Vegan"]
     },
     {
-      name: "Maple Pecan Tart",
-      description: "Canadian maple syrup tart with toasted pecans",
+      name: "Fruit Bowl",
+      description: "Fresh seasonal fruit served with yogurt",
       price: "$6.95",
-      tags: []
+      tags: ["Vegetarian"]
     }
   ]
 }

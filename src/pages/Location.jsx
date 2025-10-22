@@ -26,9 +26,9 @@ const Location = () => {
                 Address
               </h3>
               <p className="text-coffee-700 text-lg mb-2">2007 Lakeshore Rd</p>
-              <p className="text-coffee-700 text-lg mb-4">Burlington, ON L7R 1A3</p>
+              <p className="text-coffee-700 text-lg mb-4">Burlington, ON L7R 1A1</p>
               <a
-                href="https://maps.google.com/?q=2007+Lakeshore+Rd,+Burlington,+ON"
+                href="https://maps.google.com/?q=2007+Lakeshore+Rd,+Burlington,+ON+L7R+1A1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-coffee-600 hover:text-coffee-800 font-medium"
@@ -49,16 +49,12 @@ const Location = () => {
               </h3>
               <div className="space-y-2 text-coffee-700">
                 <div className="flex justify-between">
-                  <span className="font-medium">Monday - Friday</span>
-                  <span>7:00 AM - 8:00 PM</span>
+                  <span className="font-medium">Sunday - Friday</span>
+                  <span>9:00 AM - 9:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Saturday</span>
-                  <span>8:00 AM - 9:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="font-medium">Sunday</span>
-                  <span>8:00 AM - 7:00 PM</span>
+                  <span>9:00 AM - 9:00 PM</span>
                 </div>
               </div>
               <div className="mt-4 p-3 bg-coffee-50 rounded-md">
@@ -78,14 +74,14 @@ const Location = () => {
               <div className="space-y-3 text-coffee-700">
                 <div className="flex items-center">
                   <span className="font-medium mr-3">Phone:</span>
-                  <a href="tel:+19056392773" className="text-coffee-600 hover:text-coffee-800">
-                    (905) 639-2773
+                  <a href="tel:+19056311622" className="text-coffee-600 hover:text-coffee-800">
+                    (905) 631-1622
                   </a>
                 </div>
                 <div className="flex items-center">
                   <span className="font-medium mr-3">Email:</span>
-                  <a href="mailto:hello@lakeshoreicecream.ca" className="text-coffee-600 hover:text-coffee-800">
-                    hello@lakeshoreicecream.ca
+                  <a href="mailto:lakeshorecoffeehouse@cogeco.ca" className="text-coffee-600 hover:text-coffee-800">
+                    lakeshorecoffeehouse@cogeco.ca
                   </a>
                 </div>
               </div>
@@ -154,7 +150,13 @@ const Location = () => {
                   <svg className="w-5 h-5 mr-2 mt-0.5 text-coffee-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  Wheelchair accessible entrance
+                  Wheelchair accessible with highchairs available
+                </li>
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 mr-2 mt-0.5 text-coffee-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  Multiple levels of seating with cozy fireplace
                 </li>
               </ul>
             </div>
